@@ -1,0 +1,172 @@
+.subcribe-button {
+    background-color: rgb(212, 3, 3);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  .subcribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subcribe-button:active {
+    opacity: 0.5
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(95, 186, 246);
+    border-style: solid; 
+    border-width: 1px;
+    color: rgb(95, 186, 246);
+    height: 35px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s, color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(95, 186, 246);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(95, 186, 246);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 75px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer; 
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+  }
+
+  .uber-requestNow-button {
+    background-color: black;
+    color: white;
+    height: 42px;
+    width: 112px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .uber-requestNow-button:hover {
+    opacity: 0.8;
+  }
+
+  .amazon-addToCart-button {
+    background-color: rgb(247, 235, 2);
+    color: black;
+    height: 31px;
+    width: 130px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .amazon-addToCart-button:hover {
+    background-color: rgb(216, 206, 15);
+  }
+
+  .gitHub-signUp-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bolder;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .gitHub-signUp-button:hover {
+    box-shadow: 0px 3px 10px rgb(216, 215, 215);
+  }
+
+  .boostrap-getStarted-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bolder;
+    height: 36px;
+    width: 105px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .boostrap-getStarted-button:hover {
+    background-color: rgb(101, 74, 142)
+  }
+
+  .boostrap-download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    height: 36px;
+    width: 95px;
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+  }
+
+  .boostrap-download-button:hover {
+    color: white;
+    background-color: rgb(108, 117, 125);
+  }
+
+  .apply-on-company-website-button {
+    background-color: rgb(21, 74, 197);
+    color: white;
+    font-weight: bold;
+    height: 32px;
+    width: 214px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .save-button {
+    background-color: white;
+    color: rgb(21, 74, 197);
+    font-weight: bold;
+    height: 32px;
+    width: 55px;
+    border-color: rgb(21, 74, 197);
+    border-radius: 16px;
+    border-width: 1px;
+    border-style: solid;
+    transition: border-width 0.15s, background-color 0.15s;
+  }
+
+  .save-button:hover {
+    border-width: 2px;
+    background-color: rgb(202, 215, 228);
+  }
