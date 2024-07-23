@@ -1,0 +1,17 @@
+.thumbnail-round {
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.thumbnail-square {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.thumbnail-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 75px;
+}
