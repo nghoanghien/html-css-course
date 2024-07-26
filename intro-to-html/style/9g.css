@@ -1,0 +1,44 @@
+div {
+  display: inline-block;
+  border: none;
+  width: 180px;
+  height: 280px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-right: 18px;
+}
+
+img {
+  width: 180px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: Arial;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.number-friends {
+  color: grey;
+  margin-bottom: 12px;
+}
+
+button {
+  margin-left: 10px;
+  background-color: rgb(0, 123, 255);
+  width: 115px;
+  height: 33px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
