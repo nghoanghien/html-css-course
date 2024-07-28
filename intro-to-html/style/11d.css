@@ -1,0 +1,64 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.friend-grid {
+  display: grid;
+  grid-template-columns: 220px 220px 220px;
+  column-gap: 20px;
+}
+
+.friend-preview {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+
+.friend { 
+  width: 45px;
+  border-radius: 22.5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.friend-picture {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+
+.mutual-picture-friend {
+  vertical-align: middle;
+  margin-bottom: 18px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}
+
+.mutual-friend {
+  display: inline-block;
+  color: grey;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.add-friend-button {
+  background-color: rgb(119, 167, 221);
+  color: white;
+  font-size: Arial;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
