@@ -1,0 +1,39 @@
+div {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.header {
+  border: 2px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  line-height: 45px; 
+}
+
+.header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.number-news {
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 35px;
+}
+
+
+
