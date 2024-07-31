@@ -1,0 +1,55 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-left: 30px;
+}
+
+.profile-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.type,
+.popularity {
+  color: grey;
+  margin-bottom: 3px;
+}
+
+.follow-button {
+  background-color: rgb(0, 166, 255);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+}
